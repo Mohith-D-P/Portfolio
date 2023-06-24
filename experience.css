@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Oswald&display=swap");
+
+/* Global Styles */
+body {
+  font-family: "Josefin Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header Styles */
+header {
+  font-family: "Josefin Sans", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #333;
+  padding: 20px;
+}
+
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.header-text {
+  font-family: "Josefin Sans", sans-serif;
+  color: #fff;
+}
+
+/* Navigation Styles */
+.navigation {
+  font-family: "Josefin Sans", sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+/* Experience Section Styles */
+.experience-section {
+  font-family: "Josefin Sans", sans-serif;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-top: 20px;
+  font-weight: 650;
+  text-indent: 0%;
+}
+
+.experience-item {
+  margin-bottom: 20px;
+}
+
+.job-title {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
+}
+
+.job-duration {
+  font-family: "Josefin Sans", sans-serif;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.job-description {
+  font-family: "Josefin Sans", sans-serif;
+  margin-bottom: 10px;
+}
+
+/* Footer Styles */
+footer {
+  font-family: "Josefin Sans", sans-serif;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}
