@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Oswald&display=swap");
+
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header Styles */
+header {
+  font-family: "Josefin Sans", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #333;
+  padding: 20px;
+}
+
+.profile-photo {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.header-text {
+  color: #fff;
+}
+/* Navigation Styles */
+.navigation {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+  }
+
+/* About Section Styles */
+.about-section {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  text-indent: 0%;
+  display: flex;
+  justify-content:space-evenly;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.about-text {
+  flex: 1;
+  margin-right: 20px;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}
